@@ -8,20 +8,102 @@
 
 /* Begin PBXBuildFile section */
 		12E3886E2232032F009F4143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3886D2232032F009F4143 /* AppDelegate.swift */; };
-		12E388702232032F009F4143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3886F2232032F009F4143 /* ViewController.swift */; };
-		12E388732232032F009F4143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E388712232032F009F4143 /* Main.storyboard */; };
 		12E3887522320331009F4143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E3887422320331009F4143 /* Assets.xcassets */; };
 		12E3887822320331009F4143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E3887622320331009F4143 /* LaunchScreen.storyboard */; };
+		12E38882223206D5009F4143 /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E38881223206D5009F4143 /* LayoutHelper.swift */; };
+		12E388842232076D009F4143 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388832232076D009F4143 /* MainViewController.swift */; };
+		12E38886223207A6009F4143 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E38885223207A6009F4143 /* ToolbarView.swift */; };
+		12E3888922320826009F4143 /* fabtoolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E3888722320826009F4143 /* fabtoolbar.png */; };
+		12E3888A22320826009F4143 /* nofabtoolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E3888822320826009F4143 /* nofabtoolbar.png */; };
+		12E3888C22320853009F4143 /* fab.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E3888B22320853009F4143 /* fab.png */; };
+		12E3888E22320862009F4143 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3888D22320862009F4143 /* ImageHelper.swift */; };
+		12E388902232118C009F4143 /* BrandingBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E3888F2232118C009F4143 /* BrandingBar.png */; };
+		12E3889222323DA4009F4143 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3889122323DA3009F4143 /* HomeView.swift */; };
+		12E3889422323DC8009F4143 /* QuoteCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E3889322323DC8009F4143 /* QuoteCard.png */; };
+		12E3889822324896009F4143 /* NewsCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E3889722324896009F4143 /* NewsCard.png */; };
+		12E3889D22324A43009F4143 /* QuoteCardBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E3889B22324A42009F4143 /* QuoteCardBlank.png */; };
+		12E388A222324C01009F4143 /* QuoteDeepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388A122324C01009F4143 /* QuoteDeepView.swift */; };
+		12E388A622325A25009F4143 /* TipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388A522325A25009F4143 /* TipCardView.swift */; };
+		12E388A822325CA1009F4143 /* TipCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388A722325CA1009F4143 /* TipCard.png */; };
+		12E388AA22325DCB009F4143 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388A922325DCB009F4143 /* BackButton.png */; };
+		12E388AC22325EA5009F4143 /* QuoteDeep.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388AB22325EA5009F4143 /* QuoteDeep.png */; };
+		12E388AE22326CF5009F4143 /* Settings-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388AD22326CF4009F4143 /* Settings-2.png */; };
+		12E388B022326CFA009F4143 /* Settings-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388AF22326CF9009F4143 /* Settings-1.png */; };
+		12E388B222326CFF009F4143 /* InYourWords.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388B122326CFE009F4143 /* InYourWords.png */; };
+		12E388B422327574009F4143 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388B322327574009F4143 /* SettingsView.swift */; };
+		12E388B622327999009F4143 /* Transcript.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388B522327998009F4143 /* Transcript.png */; };
+		12E388B8223279CF009F4143 /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388B7223279CF009F4143 /* TranscriptView.swift */; };
+		12E388BA22327BBE009F4143 /* DeleteTranscript.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388B922327BBE009F4143 /* DeleteTranscript.png */; };
+		12E388BD223280DC009F4143 /* TABubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388BB223280DC009F4143 /* TABubbleView.swift */; };
+		12E388BE223280DC009F4143 /* TABubbleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388BC223280DC009F4143 /* TABubbleItem.swift */; };
+		12E388C0223282A8009F4143 /* VooeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388BF223282A8009F4143 /* VooeyView.swift */; };
+		12E388C2223282E3009F4143 /* VooeyUI.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388C1223282E3009F4143 /* VooeyUI.png */; };
+		12E388C4223284C0009F4143 /* VooeyUIFab.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388C3223284C0009F4143 /* VooeyUIFab.png */; };
+		12E388C8223291C8009F4143 /* QuoteText.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388C7223291C7009F4143 /* QuoteText.png */; };
+		12E388CA22329E0F009F4143 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388C922329E0F009F4143 /* DataView.swift */; };
+		12E388CC22329FE8009F4143 /* DataHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388CB22329FE8009F4143 /* DataHeader.png */; };
+		12E388CE2232B0D1009F4143 /* PubNubCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388CD2232B0D1009F4143 /* PubNubCoordinator.swift */; };
+		12E388D02232BBA4009F4143 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E388CF2232BBA4009F4143 /* AVKit.framework */; };
+		12E388D22232BBA8009F4143 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E388D12232BBA8009F4143 /* AVFoundation.framework */; };
+		12E388D42232C946009F4143 /* FTUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E388D32232C946009F4143 /* FTUIView.swift */; };
+		12E388DA2232C971009F4143 /* FTUI-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388D52232C970009F4143 /* FTUI-1.png */; };
+		12E388DB2232C971009F4143 /* EmptyState.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388D62232C970009F4143 /* EmptyState.png */; };
+		12E388DC2232C971009F4143 /* DoneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388D72232C970009F4143 /* DoneButton.png */; };
+		12E388DD2232C971009F4143 /* FTUI-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388D82232C971009F4143 /* FTUI-2.png */; };
+		12E388DE2232C971009F4143 /* FTUI-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E388D92232C971009F4143 /* FTUI-3.png */; };
+		C913012C9268DB6C94E1294A /* Pods_Vooey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EAABDE1B56F7C1716A9011 /* Pods_Vooey.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12E3886A2232032F009F4143 /* Vooey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vooey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E3886D2232032F009F4143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12E3886F2232032F009F4143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12E388722232032F009F4143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12E3887422320331009F4143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E3887722320331009F4143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E3887922320331009F4143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E38881223206D5009F4143 /* LayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutHelper.swift; sourceTree = "<group>"; };
+		12E388832232076D009F4143 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12E38885223207A6009F4143 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		12E3888722320826009F4143 /* fabtoolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabtoolbar.png; sourceTree = "<group>"; };
+		12E3888822320826009F4143 /* nofabtoolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nofabtoolbar.png; sourceTree = "<group>"; };
+		12E3888B22320853009F4143 /* fab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fab.png; sourceTree = "<group>"; };
+		12E3888D22320862009F4143 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		12E3888F2232118C009F4143 /* BrandingBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrandingBar.png; sourceTree = "<group>"; };
+		12E3889122323DA3009F4143 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		12E3889322323DC8009F4143 /* QuoteCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuoteCard.png; sourceTree = "<group>"; };
+		12E3889722324896009F4143 /* NewsCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewsCard.png; sourceTree = "<group>"; };
+		12E3889B22324A42009F4143 /* QuoteCardBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuoteCardBlank.png; sourceTree = "<group>"; };
+		12E388A122324C01009F4143 /* QuoteDeepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDeepView.swift; sourceTree = "<group>"; };
+		12E388A522325A25009F4143 /* TipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCardView.swift; sourceTree = "<group>"; };
+		12E388A722325CA1009F4143 /* TipCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TipCard.png; sourceTree = "<group>"; };
+		12E388A922325DCB009F4143 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		12E388AB22325EA5009F4143 /* QuoteDeep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuoteDeep.png; sourceTree = "<group>"; };
+		12E388AD22326CF4009F4143 /* Settings-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-2.png"; sourceTree = "<group>"; };
+		12E388AF22326CF9009F4143 /* Settings-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-1.png"; sourceTree = "<group>"; };
+		12E388B122326CFE009F4143 /* InYourWords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InYourWords.png; sourceTree = "<group>"; };
+		12E388B322327574009F4143 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		12E388B522327998009F4143 /* Transcript.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Transcript.png; sourceTree = "<group>"; };
+		12E388B7223279CF009F4143 /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		12E388B922327BBE009F4143 /* DeleteTranscript.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteTranscript.png; sourceTree = "<group>"; };
+		12E388BB223280DC009F4143 /* TABubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TABubbleView.swift; sourceTree = "<group>"; };
+		12E388BC223280DC009F4143 /* TABubbleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TABubbleItem.swift; sourceTree = "<group>"; };
+		12E388BF223282A8009F4143 /* VooeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VooeyView.swift; sourceTree = "<group>"; };
+		12E388C1223282E3009F4143 /* VooeyUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VooeyUI.png; sourceTree = "<group>"; };
+		12E388C3223284C0009F4143 /* VooeyUIFab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VooeyUIFab.png; sourceTree = "<group>"; };
+		12E388C7223291C7009F4143 /* QuoteText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuoteText.png; sourceTree = "<group>"; };
+		12E388C922329E0F009F4143 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		12E388CB22329FE8009F4143 /* DataHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DataHeader.png; sourceTree = "<group>"; };
+		12E388CD2232B0D1009F4143 /* PubNubCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubNubCoordinator.swift; sourceTree = "<group>"; };
+		12E388CF2232BBA4009F4143 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		12E388D12232BBA8009F4143 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		12E388D32232C946009F4143 /* FTUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTUIView.swift; sourceTree = "<group>"; };
+		12E388D52232C970009F4143 /* FTUI-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FTUI-1.png"; sourceTree = "<group>"; };
+		12E388D62232C970009F4143 /* EmptyState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmptyState.png; sourceTree = "<group>"; };
+		12E388D72232C970009F4143 /* DoneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoneButton.png; sourceTree = "<group>"; };
+		12E388D82232C971009F4143 /* FTUI-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FTUI-2.png"; sourceTree = "<group>"; };
+		12E388D92232C971009F4143 /* FTUI-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FTUI-3.png"; sourceTree = "<group>"; };
+		17EAABDE1B56F7C1716A9011 /* Pods_Vooey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vooey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B22829DC8C9E119B3D79DD4 /* Pods-Vooey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vooey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vooey/Pods-Vooey.debug.xcconfig"; sourceTree = "<group>"; };
+		95B60F0247824B8324C35CC9 /* Pods-Vooey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vooey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vooey/Pods-Vooey.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E388D22232BBA8009F4143 /* AVFoundation.framework in Frameworks */,
+				12E388D02232BBA4009F4143 /* AVKit.framework in Frameworks */,
+				C913012C9268DB6C94E1294A /* Pods_Vooey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +125,8 @@
 			children = (
 				12E3886C2232032F009F4143 /* Vooey */,
 				12E3886B2232032F009F4143 /* Products */,
+				B33317F9AB2F975BC9689D40 /* Pods */,
+				60909E0CA2CABD17B9711427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +142,69 @@
 			isa = PBXGroup;
 			children = (
 				12E3886D2232032F009F4143 /* AppDelegate.swift */,
-				12E3886F2232032F009F4143 /* ViewController.swift */,
-				12E388712232032F009F4143 /* Main.storyboard */,
+				12E388832232076D009F4143 /* MainViewController.swift */,
+				12E388B7223279CF009F4143 /* TranscriptView.swift */,
+				12E388B322327574009F4143 /* SettingsView.swift */,
+				12E3889122323DA3009F4143 /* HomeView.swift */,
+				12E388C922329E0F009F4143 /* DataView.swift */,
+				12E388CD2232B0D1009F4143 /* PubNubCoordinator.swift */,
+				12E388A122324C01009F4143 /* QuoteDeepView.swift */,
+				12E388A522325A25009F4143 /* TipCardView.swift */,
+				12E38885223207A6009F4143 /* ToolbarView.swift */,
+				12E388D32232C946009F4143 /* FTUIView.swift */,
+				12E388BF223282A8009F4143 /* VooeyView.swift */,
+				12E3888D22320862009F4143 /* ImageHelper.swift */,
+				12E38881223206D5009F4143 /* LayoutHelper.swift */,
+				12E388BC223280DC009F4143 /* TABubbleItem.swift */,
+				12E388BB223280DC009F4143 /* TABubbleView.swift */,
 				12E3887422320331009F4143 /* Assets.xcassets */,
+				12E3888B22320853009F4143 /* fab.png */,
+				12E3888722320826009F4143 /* fabtoolbar.png */,
+				12E3888822320826009F4143 /* nofabtoolbar.png */,
+				12E388A922325DCB009F4143 /* BackButton.png */,
+				12E3888F2232118C009F4143 /* BrandingBar.png */,
+				12E388A722325CA1009F4143 /* TipCard.png */,
+				12E3889322323DC8009F4143 /* QuoteCard.png */,
+				12E388C7223291C7009F4143 /* QuoteText.png */,
+				12E3889722324896009F4143 /* NewsCard.png */,
+				12E388AB22325EA5009F4143 /* QuoteDeep.png */,
+				12E3889B22324A42009F4143 /* QuoteCardBlank.png */,
+				12E388B122326CFE009F4143 /* InYourWords.png */,
+				12E388CB22329FE8009F4143 /* DataHeader.png */,
+				12E388AF22326CF9009F4143 /* Settings-1.png */,
+				12E388AD22326CF4009F4143 /* Settings-2.png */,
+				12E388B522327998009F4143 /* Transcript.png */,
+				12E388B922327BBE009F4143 /* DeleteTranscript.png */,
+				12E388C1223282E3009F4143 /* VooeyUI.png */,
+				12E388C3223284C0009F4143 /* VooeyUIFab.png */,
+				12E388D72232C970009F4143 /* DoneButton.png */,
+				12E388D62232C970009F4143 /* EmptyState.png */,
+				12E388D52232C970009F4143 /* FTUI-1.png */,
+				12E388D82232C971009F4143 /* FTUI-2.png */,
+				12E388D92232C971009F4143 /* FTUI-3.png */,
 				12E3887622320331009F4143 /* LaunchScreen.storyboard */,
 				12E3887922320331009F4143 /* Info.plist */,
 			);
 			path = Vooey;
+			sourceTree = "<group>";
+		};
+		60909E0CA2CABD17B9711427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E388D12232BBA8009F4143 /* AVFoundation.framework */,
+				12E388CF2232BBA4009F4143 /* AVKit.framework */,
+				17EAABDE1B56F7C1716A9011 /* Pods_Vooey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B33317F9AB2F975BC9689D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B22829DC8C9E119B3D79DD4 /* Pods-Vooey.debug.xcconfig */,
+				95B60F0247824B8324C35CC9 /* Pods-Vooey.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12E3887C22320331009F4143 /* Build configuration list for PBXNativeTarget "Vooey" */;
 			buildPhases = (
+				BC89FB0D5E5A22E6103A8F95 /* [CP] Check Pods Manifest.lock */,
 				12E388662232032F009F4143 /* Sources */,
 				12E388672232032F009F4143 /* Frameworks */,
 				12E388682232032F009F4143 /* Resources */,
+				E7F5AA0B5A81B18F48861C17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +267,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E3888A22320826009F4143 /* nofabtoolbar.png in Resources */,
+				12E388DB2232C971009F4143 /* EmptyState.png in Resources */,
+				12E388C2223282E3009F4143 /* VooeyUI.png in Resources */,
+				12E3889D22324A43009F4143 /* QuoteCardBlank.png in Resources */,
+				12E388B622327999009F4143 /* Transcript.png in Resources */,
+				12E3888C22320853009F4143 /* fab.png in Resources */,
+				12E388AC22325EA5009F4143 /* QuoteDeep.png in Resources */,
+				12E388BA22327BBE009F4143 /* DeleteTranscript.png in Resources */,
+				12E3889422323DC8009F4143 /* QuoteCard.png in Resources */,
 				12E3887822320331009F4143 /* LaunchScreen.storyboard in Resources */,
+				12E388DA2232C971009F4143 /* FTUI-1.png in Resources */,
+				12E388DD2232C971009F4143 /* FTUI-2.png in Resources */,
+				12E388C4223284C0009F4143 /* VooeyUIFab.png in Resources */,
+				12E388DE2232C971009F4143 /* FTUI-3.png in Resources */,
+				12E388B222326CFF009F4143 /* InYourWords.png in Resources */,
+				12E388C8223291C8009F4143 /* QuoteText.png in Resources */,
+				12E388AE22326CF5009F4143 /* Settings-2.png in Resources */,
+				12E3888922320826009F4143 /* fabtoolbar.png in Resources */,
+				12E388B022326CFA009F4143 /* Settings-1.png in Resources */,
+				12E388AA22325DCB009F4143 /* BackButton.png in Resources */,
+				12E388902232118C009F4143 /* BrandingBar.png in Resources */,
+				12E388DC2232C971009F4143 /* DoneButton.png in Resources */,
+				12E388A822325CA1009F4143 /* TipCard.png in Resources */,
+				12E3889822324896009F4143 /* NewsCard.png in Resources */,
+				12E388CC22329FE8009F4143 /* DataHeader.png in Resources */,
 				12E3887522320331009F4143 /* Assets.xcassets in Resources */,
-				12E388732232032F009F4143 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC89FB0D5E5A22E6103A8F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vooey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F5AA0B5A81B18F48861C17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vooey/Pods-Vooey-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vooey/Pods-Vooey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12E388662232032F009F4143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E388702232032F009F4143 /* ViewController.swift in Sources */,
+				12E388C0223282A8009F4143 /* VooeyView.swift in Sources */,
+				12E388B8223279CF009F4143 /* TranscriptView.swift in Sources */,
+				12E388842232076D009F4143 /* MainViewController.swift in Sources */,
+				12E3888E22320862009F4143 /* ImageHelper.swift in Sources */,
+				12E38882223206D5009F4143 /* LayoutHelper.swift in Sources */,
+				12E388B422327574009F4143 /* SettingsView.swift in Sources */,
+				12E388BE223280DC009F4143 /* TABubbleItem.swift in Sources */,
+				12E3889222323DA4009F4143 /* HomeView.swift in Sources */,
+				12E38886223207A6009F4143 /* ToolbarView.swift in Sources */,
 				12E3886E2232032F009F4143 /* AppDelegate.swift in Sources */,
+				12E388CA22329E0F009F4143 /* DataView.swift in Sources */,
+				12E388A622325A25009F4143 /* TipCardView.swift in Sources */,
+				12E388D42232C946009F4143 /* FTUIView.swift in Sources */,
+				12E388CE2232B0D1009F4143 /* PubNubCoordinator.swift in Sources */,
+				12E388BD223280DC009F4143 /* TABubbleView.swift in Sources */,
+				12E388A222324C01009F4143 /* QuoteDeepView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12E388712232032F009F4143 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12E388722232032F009F4143 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12E3887622320331009F4143 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +501,13 @@
 		};
 		12E3887D22320331009F4143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B22829DC8C9E119B3D79DD4 /* Pods-Vooey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SL8E63CST5;
 				INFOPLIST_FILE = Vooey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +521,13 @@
 		};
 		12E3887E22320331009F4143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B60F0247824B8324C35CC9 /* Pods-Vooey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SL8E63CST5;
 				INFOPLIST_FILE = Vooey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
